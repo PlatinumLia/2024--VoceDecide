@@ -16,3 +16,21 @@
     --fonteTitulo: "Kanit", sans-serif;
     --fonteTexto: "Roboto Slab", serif;
 }
+
+body {
+    background-color: var(--preto);
+    color: var(--platina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonteTexto);
+}
+
+.caixa-principal {
+    background-color: var(--branco);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
