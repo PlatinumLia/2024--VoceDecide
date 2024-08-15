@@ -75,27 +75,45 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta() 
     {
+        if (atual >= perguntas.length)
+        {
+            mostreResultado();
+            return;
+        }
         perguntaAtual = perguntas[atual];
         caixaPerguntas.textContent = perguntaAtual.enunciado;
+        caixaAlternativa.textContent = "";
         mostraAlternativas();
     }
 
-    function mostraAlternativas()
+function mostraAlternativas()
     {
         for (const alternativa of perguntaAtual.alternativas)
         {
             const botaoAlternativas = document.createElement("button");
             botaoAlternativas.textContent = alternativa.texto;
-            botaoAlternativas.addEventListener("click", function()
-            {
-                atual++;
-                mostraPergunta();
-            })
+            botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
             caixaAlternativa.appendChild(botaoAlternativas);
         }
+    }
+
+function respostaSelecionada(opcaoSelecionada) 
+    {
+        const afirmacoes = opcaoSelecionada.afirmacao;
+        historiaFinal += afirmacoes + " ";
+        atual++;
+        mostraPergunta();
+    }
+
+function mostreResultado()
+    {
+        caixaPerguntas.textContent = " Inicio do texto ";
+        textoResultado.textContent = historiaFinal;
+        caixaAlternativa.textContent = "";
     }
 
     mostraPergunta();
