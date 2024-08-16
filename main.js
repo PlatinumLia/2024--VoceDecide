@@ -23,7 +23,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Decide conversar com o besouro.",
-                afirmacao: "Após conversar com ob besouro, descobre que seu nome é Bretta. Após isso, você abre caminho e continua sua jornada, até que decide voltar a Dirthmouth e percebe que uma casa está aberta. Lá você encontra um fragmento de máscara."
+                afirmacao: "Após conversar com o besouro, descobre que seu nome é Bretta. Após isso, você abre caminho e continua sua jornada, até que decide voltar a Dirthmouth e percebe que uma casa está aberta. Lá você encontra um fragmento de máscara."
             },
             {
                 texto: "Decide ignorar o besouro e continuar a sua jornada.",
