@@ -75,7 +75,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = '';
+let historiaFinal = "";
 
 function mostraPergunta() 
     {
@@ -104,7 +104,7 @@ function mostraAlternativas()
 function respostaSelecionada(opcaoSelecionada) 
     {
         const afirmacoes = opcaoSelecionada.afirmacao;
-        historiaFinal += afirmacoes + '';
+        historiaFinal += afirmacoes + "";
         atual++;
         mostraPergunta();
     }
@@ -113,7 +113,7 @@ function mostreResultado()
     {
         caixaPerguntas.textContent = "Após suas escolhas este foi o resultado delas durante seu jogo";
         textoResultado.textContent = historiaFinal;
-        caixaAlternativa.textContent = '';
+        caixaAlternativa.textContent = "";
     }
 
     mostraPergunta();
