@@ -54,12 +54,12 @@ const perguntas = [
             },
             {
                 texto: "Decide não aceitar o pedido.",
-                afirmacao: "Você nega o pedido e continua a sua joranda, fazendo com que tanto a Pranteadora Cinzenta como a sua amada não consigam ter paz."
+                afirmacao: "Você nega o pedido e continua a sua jornanda, fazendo com que tanto a Pranteadora Cinzenta como a sua amada não consigam ter paz."
             },
         ]
     },
     {
-        enunciado: "Ao explorar os Penhascos Uivantes, você chega a um local e encontra uma lanterna, indo um pouco a frente você se depara com um boneco e decide usar o Ferrão dos Sonhos nele. Assim que faz isso, nada acontece, porém você decide bater na lanterna até a ascender. Voltando para Dirthmouth, lá está cabanas misteriosas e ao entrar em uma delas, se depara com Grimm. Ele o pede para alimentar sua cria com uma certa chama que está espalhada por Hallownest. Você alimenta cria uma vez, e volta para falar com Grimm, ele pega a cria e a devolve já crescida e pede para você alimentar ela mais uma vez. Após isso, você a alimenta e volta para falar com o Grimm e ali começa um um ritual com uma luta-dança. E depois de vencê-lo, ele mais uma vez o pede para alimentar a cria. E procurando pelas chamas, você vai até uma chama localizada na Aldeia Distante e encontra-a com Brumm e ele diz que se quiser parar o ritual, deve o encontrar no Penhasco Uivante no mesmo local da lanterna. O que você fará?",
+        enunciado: "Ao explorar os Penhascos Uivantes, você chega a um local e encontra uma lanterna, indo um pouco a frente você se depara com um boneco e decide usar o Ferrão dos Sonhos nele. Assim que faz isso, nada acontece, porém você decide bater na lanterna até a ascender. Voltando para Dirthmouth, lá está cabanas misteriosas e ao entrar em uma delas, se depara com Grimm. Ele o pede para alimentar sua cria com uma certa chama que está espalhada por Hallownest. Você alimenta cria uma vez, e volta para falar com Grimm, ele pega a cria e a devolve já crescida e pede para você alimentar ela mais uma vez. Após isso, você a alimenta e volta para falar com o Grimm e ali começa um um ritual com uma luta-dança. E depois de vencê-lo, ele mais uma vez o pede para alimentar a cria. E procurando pelas chamas, você vai até uma chama localizada na Aldeia Distante e encontra-a com Brumm e ele diz que se quiser parar o ritual, deve o encontrar nos Penhascos Uivantes no mesmo local da lanterna. O que você fará?",
         alternativas: [
             {
                 texto: "Decide ignorar o pedido de Brumm, e segue coletando as chamas.",
