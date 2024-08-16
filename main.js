@@ -59,15 +59,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao explorar os Penhascos Uivantes, você chega a um local e encontra uma lanterna, indo um pouco a frente você se depara com um boneco e decide usar o Ferrão dos Sonhos nele. Assim que faz isso, nada acontece, porém você decide bater na lanterna até a ascender. Voltando para Dirthmouth, lá está cabanas misteriosas e ao entrar em uma delas, se depara com Grimm. Ele o pede para alimentar sua cria com uma certa chama que está espalhada por Hallownest. Você alimenta cria uma vez, e volta para falar com Grimm, ele pega a cria e a devolve já crescida e pede para você alimentar ela mais uma vez. Após isso, você a alimenta e volta para falar com o Grimm e ali começa uma luta-dança. E depois de vencê-lo, ele mais uma vez o pede para alimentar",
+        enunciado: "Ao explorar os Penhascos Uivantes, você chega a um local e encontra uma lanterna, indo um pouco a frente você se depara com um boneco e decide usar o Ferrão dos Sonhos nele. Assim que faz isso, nada acontece, porém você decide bater na lanterna até a ascender. Voltando para Dirthmouth, lá está cabanas misteriosas e ao entrar em uma delas, se depara com Grimm. Ele o pede para alimentar sua cria com uma certa chama que está espalhada por Hallownest. Você alimenta cria uma vez, e volta para falar com Grimm, ele pega a cria e a devolve já crescida e pede para você alimentar ela mais uma vez. Após isso, você a alimenta e volta para falar com o Grimm e ali começa um um ritual com uma luta-dança. E depois de vencê-lo, ele mais uma vez o pede para alimentar a cria. E procurando pelas chamas, você vai até uma chama localizada na Aldeia Distante e encontra-a com Brumm e ele diz que se quiser parar o ritual, deve o encontrar no Penhasco Uivante no mesmo local da lanterna. O que você fará?",
         alternativas: [
             {
-                texto: "Alternativa09",
-                afirmacao: "afirmacao09"
+                texto: "Decide ignorar o pedido de Brumm, e segue coletando as chamas.",
+                afirmacao: "Após coletar todas as chamas, você volta para Dirthmouth e encontra Grimm dormindo e decide usar o Ferrão dos Sonhos nele, assim acaba enfrentando a versão dos sonhos dele: Rei do Pesadelo Grimm. E depois de o vencer, o ritual se completa e ele desaparece. Deixando sua cria já crescida com você."
             },
             {
-                texto: "Alternativa10",
-                afirmacao: "afirmacao10"
+                texto: "Decide seguir o pedido de Brumm.",
+                afirmacao: "Após isso você segue para o Penhasco Uivante e encontra Brumm lá na lanterna, e ele te ajuda a destruí-la. Assim, você bane a Trupe Grimm de Hallownest, e Brumm te dá o amuleto: Melodia Despreocupada."
             }, 
         ]
     }
@@ -96,7 +96,7 @@ function mostraAlternativas()
         {
             const botaoAlternativas = document.createElement("button");
             botaoAlternativas.textContent = alternativa.texto;
-            botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
+            botaoAlternativas.addEventListener("click",() => respostaSelecionada(alternativa));
             caixaAlternativa.appendChild(botaoAlternativas);
         }
     }
@@ -111,7 +111,7 @@ function respostaSelecionada(opcaoSelecionada)
 
 function mostreResultado()
     {
-        caixaPerguntas.textContent = " Inicio do texto ";
+        caixaPerguntas.textContent = "Após suas escolhas este foi o resultado delas durante seu jogo";
         textoResultado.textContent = historiaFinal;
         caixaAlternativa.textContent = "";
     }
