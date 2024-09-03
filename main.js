@@ -39,7 +39,7 @@ const perguntas = [
                 afirmacao: "Após isso, você continua sua jornada. E mais tarde, indo para o local onde Sheo, um dos mestres do ferrão está, você encontra o ferreiro com ele e o mesmo demonstra que está feliz por não ter sido morto quando pediu."
             },
             {
-                texto: "Decide mata-lo.",
+                texto: "Decide matá-lo.",
                 afirmacao: "Após isso, o corpo do ferreiro cai e fica abaixo de sua cabana. E mais tarde seu corpo pode ser encontrado na Cova de Lixo."
             },
             
